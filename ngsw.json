@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1772701814120,
+  "index": "/MISOrbit/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/MISOrbit/favicon.ico",
+        "/MISOrbit/index.html",
+        "/MISOrbit/main-TF3IX4KP.js",
+        "/MISOrbit/manifest.webmanifest",
+        "/MISOrbit/polyfills-FFHMD2TL.js",
+        "/MISOrbit/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/MISOrbit/icons/Logo.png",
+        "/MISOrbit/icons/icon-128x128.png",
+        "/MISOrbit/icons/icon-144x144.png",
+        "/MISOrbit/icons/icon-152x152.png",
+        "/MISOrbit/icons/icon-192x192.png",
+        "/MISOrbit/icons/icon-384x384.png",
+        "/MISOrbit/icons/icon-512x512.png",
+        "/MISOrbit/icons/icon-72x72.png",
+        "/MISOrbit/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/MISOrbit/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/MISOrbit/icons/Logo.png": "01e67d54b57af50bb4efef0a3efecda9ae16afb0",
+    "/MISOrbit/icons/icon-128x128.png": "594826a2b7c74e62800ed77b39eeb68f185df59b",
+    "/MISOrbit/icons/icon-144x144.png": "1ca597d479ec0dde9f3f04af1f8f263e8ea10c8d",
+    "/MISOrbit/icons/icon-152x152.png": "9310de4b875ed6285536a51d9244160a668861fe",
+    "/MISOrbit/icons/icon-192x192.png": "10b21f842cfa9f20bf59115d2cd4a5d0076f3f78",
+    "/MISOrbit/icons/icon-384x384.png": "cff316d8f0c9e6eef07aa42badd1beeae5775040",
+    "/MISOrbit/icons/icon-512x512.png": "1ea914b84763933b96a3f6662ade0c734c7eb7b2",
+    "/MISOrbit/icons/icon-72x72.png": "42b6e117aaa227630fa91d387772a1f121e4cbb0",
+    "/MISOrbit/icons/icon-96x96.png": "39712f0ce6932eecfa64abe7a61c969ab63baf3d",
+    "/MISOrbit/index.html": "c360553c79674c3263ba7ba5c26b09c89aedd813",
+    "/MISOrbit/main-TF3IX4KP.js": "9f35c4ead29442eb35eac1f73dda99612697b111",
+    "/MISOrbit/manifest.webmanifest": "cbedb564f53c292beb3d95b9d6229255f67e84cd",
+    "/MISOrbit/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/MISOrbit/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
